@@ -1,0 +1,76 @@
+.certificates img {
+    float: left;
+    width: 25%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.examples a {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.examples a:hover {
+    transition: 0.25s;
+    transition-timing-function: ease-in-out;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.examples a p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+.examples img {
+    opacity: 0.5;
+    width: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+* {
+    font-family: 'Trebuchet MS', tahoma, verdana;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(32, 1, 20);
+    color: rgba(255, 255, 255, 0.75);
+}
+.pageBody {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1em;
+    background-color: rgba(82, 2, 51, 0.5);
+}
+body p {
+    text-indent: 1em;
+}
+body h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+a p {
+    text-indent: 0;
+}
+header {
+    background-color: rgb(12, 0, 7);
+    padding: 1em;
+}
+footer {
+    background-color: rgb(43, 1, 25);
+    padding: 1em;
+    border-top: solid black 5px;
+    text-align: center;
+}
+footer p {
+    text-indent: 0;
+}
